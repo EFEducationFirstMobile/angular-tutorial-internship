@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My First Project';
+  title = 'Tour of Heroes';
 }
